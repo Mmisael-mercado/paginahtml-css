@@ -1,0 +1,156 @@
+h1{
+    background-color: rgb(235, 238, 238);
+}
+body{
+    background-color:rgb(253, 253, 253)
+}
+h2{
+    font-size: 3em;
+    color: rgb(69, 102, 4);
+    margin: auto;
+    padding-left: 6em;
+    
+    font-size: 2em%;
+    display: flex;
+    flex-direction:unset;
+    gap: 15em;
+    align-items: center;
+}
+#home{
+  color: rgb(225, 218, 216);
+    font-size: 40px
+    
+}
+#clima{
+    color: rgb(235, 227, 226);
+    font-size: 40px
+}
+#noticias{
+    color: rgb(238, 236, 236);
+    font-size: 40px
+}
+.noticas{
+    margin-left: 18rem;
+    margin-top: -0.7em;
+}
+.logo{
+    border: 2px solid black;
+    width:5rem;
+    height: 5rem;
+    padding: 5em 5em 2em 1m;
+    border-radius: 15%;
+    transition: 1s;
+}
+.logo:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.2) 
+
+}
+li{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-variant-numeric: ordinal;
+    font-size: 2em;
+    color: rgb(23, 17, 36)
+}
+#titulo{
+    margin:auto;
+    padding-left:20em;
+}
+.peron{
+    padding-left: 15em;
+    width: 2800px;
+    margin:1em;
+}
+.tarjeta{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 5em 5em 2em 1m;
+    border-radius: 15%;
+    transition: 1s;
+}
+.imagen{
+
+width: 280px;
+height: 181.5px;
+margin-top: -0.7px;
+margin-left: 0px;
+padding-left: 2em;
+flex-direction:inherit;
+}
+.tarjeta:hover{
+    background-color: rgb(72, 65, 197);
+    transition-duration: 0.3s;
+    transform: scale(1.2) rotate(3deg);
+    right: auto;
+}
+
+
+.nombre{
+    margin: auto;
+    padding-left: 2em;
+    color: rgb(245, 241, 245); 
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 15em;
+    align-items: center;
+    
+
+}
+#cards-container{
+    background-color: rgb(34, 6, 29);
+    width: 180vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction:row;
+    gap:
+    justify-content: space-around;
+    
+}
+.parrafosjuegos{
+    margin: auto;
+    padding-left: 2em;
+    color: rgb(245, 241, 245); 
+    font-size: 120%;
+    display: flex;
+    flex-direction:unset;
+    gap: 15em;
+    align-items: center;
+    
+
+}
+#gamer{
+padding-left: 16cqmax;
+width: 500px;
+height: 181.5px;
+margin-top: -0.9px;
+margin: auto;
+flex-direction:inherit;
+
+}
+button{
+    text-decoration: none;
+    padding: 1rem 3rem;
+    font-weight: 600;
+    color: white;
+    border-color: black;
+    background-color: red;
+    border-radius: 1rem;
+    font-size: 28px;
+    cursor: pointer;
+}
+button:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.2) 
+}
+.margen{
+    margin-top: 1rem;
+    margin-left: 2em;
+    font-weight: 100;
+    font-size:22px;
+}
